@@ -95,7 +95,7 @@ def check_jsdata_keys(new_jsdata):
 
         new_not_in_actual_without_missing = (
             new_not_in_actual - possible_missing_actual_keys)
-        # pprint(new_not_in_actual_without_missing)
+        pprint(new_not_in_actual_without_missing)
 
 
 def main(requests_file):
@@ -132,5 +132,5 @@ def main(requests_file):
 
 
 if __name__ == '__main__':
-    requests_file = 'versions/4.35.0/requests.txt'
+    requests_file = 'versions/4.35.1/requests.txt'
     main(requests_file)
