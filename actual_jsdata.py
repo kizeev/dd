@@ -122,7 +122,7 @@ JS_DATA = {
     'vc1ts': True,
     'dvm': ...,  # navigator.deviceMemory
     'sqt': False,
-    'so': 'portrait-primary',  # screen orientation
+    'so': 'portrait-primary',  # window.screen.orientation
     'wdw': ...,
     'cokys': 'bG9hZFRpbWVzY3NpL=',
     'ecpc': False,
