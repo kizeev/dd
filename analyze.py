@@ -132,5 +132,5 @@ def main(requests_file):
 
 
 if __name__ == '__main__':
-    requests_file = 'versions/4.35.1/requests.txt'
+    requests_file = 'versions/4.35.2/requests.txt'
     main(requests_file)
