@@ -35,7 +35,7 @@ def deobfuscate(encoded_string):
 
 
 def find_encoded_array_in_js_file(text):
-    pattern = r'function a\(\) \{\s+var \w = (\[[^\]]+\]);'
+    pattern = r'function \w\(\) \{\s+var \w = (\[[^\]]+\]);'
     encoded_array = re.findall(pattern, text)[0]
     return literal_eval(encoded_array)
 
