@@ -23,11 +23,11 @@ EVENT_KEYS_IN_JS_DATA = (
 POSSIBLE_MISSING_KEYS = (
     'opts', 'xhr_opts', 'cokys', 'dcok', 'log2', 'wwl', 'cfpfe', 'stcfp')
 JS_DATA = {
-    'opts': (
+    'opts': ( # define in script (with ddk) in html from lacentrale.fr/app-empty
         '{"sessionByHeader":true,"ajaxListenerPath":[{"host":"lacentrale.fr'
         '"},{"host":"carboatservices.fr"},{"host":"espacevo.fr"}]}'),
     'xhr_opts': '',
-    'ttst': ...,  # possible script execution time??
+    'ttst': ...,  # script execution time
     'ifov': False,  # camera enabled
     'hc': ...,  # HardwareConcurrency (CPU cores)
     'br_oh': ...,  # browser outer height (JS: window.outerHeight)
